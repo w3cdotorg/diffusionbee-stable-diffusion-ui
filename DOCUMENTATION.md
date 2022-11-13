@@ -6,26 +6,6 @@ This documentation is written for version 1.4.2. Parts of it may be unapplicable
 
 On first launch, DiffusionBee will download and install additional data for image generation.
 
-### Removing DiffusionBee
-
-#### Removing the application itself
-Drag and drop the DiffusionBee.app application to the Trash.
-
-#### Removing leftover files
-DiffusionBee saves your generated images and soem information related to the custom models you might have imported in your home folder, in the .diffusionbee/ folder. If you want to fully uninstall the application, you can safely remove the whole folder. There are two ways to do it:
-
-##### From the Terminal
-Open the Terminal.app application (located in /Applications/Utilities/), and enter the command:
-
-```
-rm -r ~/.diffusionbee/
-```
-
-This will remove all traces of the DiffusionBee application (cache, generated images, imported models...).
-
-##### From the Finder
-Open your Home folder, and press the cmd + shift + . (command + shift + period) keys. This will show the hidden files and directories. You can safely drag and drop the .diffusionbee folder in the Trash.
-
 ### Updates
 
 DiffusionBee occasionally receives updates to add new features and improve performance. When prompted on startup, re-download the application from the site, and replace the new file in the location of the old one. Your history and models will be saved.
@@ -96,6 +76,26 @@ The **History** tab show previously generated images along with prompts and sett
 <img width="500" alt="Image of sharing images" src="https://user-images.githubusercontent.com/105890749/198900052-25632642-c46c-4163-9dee-9758ec6fa06a.png">
 
 Sharing images uploads images along with prompt and settings to arthub.ai. Before uploading you may select which of the images in a batch to upload. You are required to create an account to share images.
+
+### Removing DiffusionBee
+
+#### Removing the application itself
+Drag and drop the DiffusionBee.app application to the Trash.
+
+#### Removing leftover files
+DiffusionBee saves your generated images and some information related to the custom models you might have imported in your home folder, in the .diffusionbee/ folder. If you want to fully uninstall the application, you can safely remove the whole folder. There are two ways to do it:
+
+##### From the Terminal
+Open the Terminal.app application (located in /Applications/Utilities/), and enter the command:
+
+```
+rm -r ~/.diffusionbee/
+```
+
+This will remove all traces of the DiffusionBee application (cache, generated images, imported models...).
+
+##### From the Finder
+Open your Home folder, and press the cmd + shift + . (command + shift + period) keys. This will show the hidden files and directories. You can safely drag and drop the .diffusionbee folder in the Trash.
 
 ## Extra tips
 
